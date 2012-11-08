@@ -6,10 +6,14 @@
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
-/tmp
+/tmp/**/*
+/tmp/*
+/tmp/
 
 # Ignore other unneeded files.
 doc/
+doc/api
+doc/app
 *.swp
 *~
 .project
